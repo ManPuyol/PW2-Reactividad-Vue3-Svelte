@@ -1,0 +1,11 @@
+Diferencias entre Ref y Reactive en Vue 3:
+
+Ref:
+- Ref se utiliza para crear una referencia reactiva a un valor primitivo.
+- Se accede al valor a través de la propiedad .value.
+- Útil para valores simples.
+
+Reactive:
+- Reactive se utiliza para crear una referencia reactiva a un objeto completo.
+- Todos los cambios en las propiedades del objeto serán reactivos.
+- Útil para objetos complejos.
